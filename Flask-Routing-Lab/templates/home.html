@@ -11,22 +11,10 @@ body {
 background:#000;
 
 }
-#background-video{
- object-fit: 60%;
-  
-  left:70%;
-  top:50%;
-  padding: 0;
-  position: fixed;
-  transform:translate(-50%, -50%);
-  margin-top:0;
-  background-size:70%
+
 
 }
-#bg2{
-background-color:#747880                        ;
-background-size:cover;
-height:600px;
+
 
 }
 header{
@@ -235,14 +223,18 @@ div.positionBtn{
 }
 
 
+
 .col{
-  padding : 10px  ;
+  padding : 5px  ;
+  padding-left: 40px;
+  margin-top: 50px;
 
 }
 .col img{
 border-radius: 2px 16px;
-width :200px;
 padding: 23px;
+width: 400px;
+height: 300px;
 filter : greyscale(100%);
 transition :1s ;
 
@@ -262,7 +254,7 @@ transition :1s ;
 <body>
 <div class ="container">
    <div class ="logo">
-       <img src ="static/ebaywa.png" >  
+       <img src ="static/shopp.jpeg" >  
        
          <ul class ="nav-main">
 
@@ -284,9 +276,17 @@ transition :1s ;
 
 <html>
 
-<head>
-    <title> Lu's Gallery </title>
-</head>
+<div class ="col">
+       <a href="{{ url_for('product') }}"><img src ="static/adidas1.png" width = "500px" height= "260px"></a>
+       <a href=""> <img src ="static/nike3.jpg"width = "500px" height= "260px"></a>
+       <a href=""> <img src ="static/newb.jpg"width = "500px" height= "260px"></a>
+       <a href="">  <img src ="static/underu.png"width = "300px" height= "260px"></a>
+       <a href=""> <img src ="static/sony.png"width = "300px" height= "260px"></a>
+       <a href=""> <img src ="static/lg.png"width = "300px" height= "260px"></a>
+       <a href=""> </a><img src ="static/apple.png"width = "300px" height= "260px">
+       <a href=""> <img src ="static/lenovo.png"width = "300px" height= "260px"></a>
+     
+    </div>
 
 <body>
 
@@ -304,22 +304,22 @@ transition :1s ;
                             <img src="static/ps5.jpg">
                         </div>
                         <div class="slideImg prevLeftSecond">
-                            <img src="https://i1.sndcdn.com/artworks-000185743981-tuesoj-t500x500.jpg">
+                            <img src="static/iphone.jpg">
                         </div>
                         <div class="slideImg prev">
-                            <img src="https://i1.sndcdn.com/artworks-000158708482-k160g1-t500x500.jpg">
+                            <img src="static/ass.jpg" >
                         </div>
                         <div class="slideImg selected">
                             <img src="static/sale2.png">
                         </div>
                         <div class="slideImg next">
-                            <img src="static/nike21.jpg" height='700px'>
+                            <img src="static/airf1.webp" >
                         </div>
                         <div class="slideImg nextRightSecond">
                             <img src="static/ps52.jpg">
                         </div>
                         <div class="slideImg hideRight">
-                            <img src="https://i1.sndcdn.com/artworks-000064920701-xrez5z-t500x500.jpg">
+                            <img src="static/jackets.jpeg">
                         </div>
                     </div>
                     <div class="positionBtn">
@@ -330,6 +330,7 @@ transition :1s ;
                     </div>
                 </main>    
       
+
 
       <script>
           
@@ -427,23 +428,13 @@ const slide = {
                 }
 
 
+
       </script>
 
 
-<div class ="col">
-       <a href="https://www.bluestacks.com/apps/action/pubg-mobile-international-version-on-pc.html"><img src ="pubg.png" width = "300px" height= "260px"></a>
-     <a href="https://among-us.en.softonic.com/"> <img src ="amoungus.jpg"width = "300px" height= "260px"></a>
-     <a href="https://fifa-22.softonic-ar.com/"> <img src ="fifa22.jpg"width = "300px" height= "260px"></a>
-    <a href="https://www.callofduty.com/ar/warzone/download">  <img src ="fortnite.jpg"width = "300px" height= "260px"></a>
-     <a href="https://www.memuplay.com/how-to-play-Free-Fire-Battlegrounds-on-pc.html?gclid=CjwKCAiAsNKQBhAPEiwAB-I5zbzSDcFHPmH1B7frh4tUG9RitQAVzM3GD0Wa4Das2mqwvv3hE3dMxRoCO94QAvD_BwE"> <img src ="freefire.jpg"width = "300px" height= "260px"></a>
-     <a href="https://forzamotorsport.net/en-US/games/fh4"> <img src ="forza.jfif"width = "300px" height= "260px"></a>
-     <a href="https://www.rockstargames.com/reddeadredemption2/restricted-content/agegate/form?redirect=https%3A%2F%2Fwww.rockstargames.com%2Freddeadredemption2%2Fdownloads&options=&locale=en_us"> <img src ="reddead.jpg"width = "300px" height= "260px"></a>
-     <a href="https://napkforpc.com/apk/com.nathnetwork.iptvgtv/"> </a><img src ="gta.png"width = "300px" height= "260px">
-     <a href="https://playvalorant.com/en-us/"> <img src ="valorant.jpg"width = "300px" height= "260px"></a>
-     <a href="https://www.minecraft.net/en-us"> <img src ="mincarft.jfif"width = "300px" height= "260px"></a>
-    <a href="https://www.xbox.com/en-US/games/store/roblox/9nblgggzm6wm">  <img src ="roblox.jfif"width = "300px" height= "260px"></a>
-    <a href="https://www.epicgames.com/fortnite/ar/download">  <img src ="fortnite2.jfif"width = "300px" height= "260px"></a>
-    </div>
+
+
+
 
 
 </body>
